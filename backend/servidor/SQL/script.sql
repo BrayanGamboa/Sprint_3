@@ -23,7 +23,8 @@ CREATE TABLE marca(
             "Audi",
             "BMW",
             "Ford",
-            "Mercedes-Benz"
+            "Mercedes-Benz",
+            "Tesla"
         ) NOT NULL UNIQUE,
         descripcion TEXT,
         estado
@@ -105,6 +106,10 @@ VALUES
     ),
     (
         "Mercedes-Benz",
+        "Lorem sit amet consectetur adipisicing elit. Reprehenderit, eos!",
+        "S"
+    ),(
+        "Tesla",
         "Lorem sit amet consectetur adipisicing elit. Reprehenderit, eos!",
         "S"
     );
