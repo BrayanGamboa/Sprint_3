@@ -4,17 +4,13 @@ let body = document.getElementById("body");
 
 body.innerHTML = `
 <nav class="d-inline">
-<a href="main.html"><img
-                src="https://cdn-icons-png.flaticon.com/512/69/69524.png"
-                alt="Imagen de home" class="m-5" style="width: 5%" id="imgHome"></a>        
+<a href="main.html"><img src="../img/casa-icono-silueta.png" alt="Imagen de home" class="m-5" style="width: 5%"
+        id="imgHome"></a>
 <a href="../login.html">
-            <img
-                src="https:cdn-icons.flaticon.com/png/512/552/premium/552721.png?token=exp=1649171319~hmac=303cf82a45a0124dc8803f6662d823e1"
-                alt="Imagen de logo" class="m-5" style="width: 5%; float: right;" id="imgLogo">
-        </a>
-        
-                
-    </nav>
+    <img src="../img/account.png" alt="Imagen de logo" class="m-5" style="width: 5%; float: right;"
+        id="imgLogo">
+</a>
+</nav>
 
     <h1 class="text-center mb-3">${nombre}, por favor ingresa la placa del vehículo</h1>
 

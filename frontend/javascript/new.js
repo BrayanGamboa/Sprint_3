@@ -6,11 +6,11 @@ let {nombre} = user
 
 body.innerHTML= `
 <nav class="d-inline">
-<a href="main.html"><img src="https://cdn-icons-png.flaticon.com/512/69/69524.png" alt="Imagen de home"
-        class="m-5" style="width: 5%" id="imgHome"></a>
+<a href="main.html"><img src="../img/casa-icono-silueta.png" alt="Imagen de home" class="m-5" style="width: 5%"
+        id="imgHome"></a>
 <a href="../login.html">
-    <img src="https:cdn-icons.flaticon.com/png/512/552/premium/552721.png?token=exp=1649171319~hmac=303cf82a45a0124dc8803f6662d823e1"
-    alt="Imagen de logo" class="m-5" style="width: 5%; float: right;" id="imgLogo">
+    <img src="../img/account.png" alt="Imagen de logo" class="m-5" style="width: 5%; float: right;"
+        id="imgLogo">
 </a>
 </nav>
    <form class="w-50 mx-auto mb-3 d-flex flex-column" id="form">
@@ -34,11 +34,11 @@ body.innerHTML= `
        <option value="7">BMW</option>
        <option value="8">Ford</option>
        <option value="9">Mercedes-Benz</option>
-       <option value="10">Otro</option>
+       <option value="10">Tesla</option>
      </select>
      <div class="form-floating mb-3">
-       <input type="number" class="form-control" id="lastname" placeholder="Gamboa Villegas" required maxlength="10">
-       <label for="floatingInput">Número del Módelo</label>
+       <input type="date" class="form-control" id="modelo" placeholder="Gamboa 19/04/2005" required>
+       <label for="floatingInput">Módelo</label>
      </div>
      <div class="form-floating mb-3">
        <input type="date" class="form-control" id="email" placeholder="19/04/2005" required>
